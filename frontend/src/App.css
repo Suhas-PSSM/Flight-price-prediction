@@ -1,0 +1,82 @@
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 450px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-container label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+input,
+select {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.predict-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.predict-btn:hover {
+  background: #1e3a8a;
+}
+
+.prediction-box {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background: #d1fae5;
+  color: #065f46;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}

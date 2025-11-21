@@ -1,0 +1,38 @@
+/* Reset + Smooth UI Styling Without Tailwind */
+
+/* Reset default browser margin & padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply modern font */
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f5f7ff;
+  color: #111827;
+  line-height: 1.5;
+}
+
+/* Smooth animation for everything */
+* {
+  transition: 0.25s ease;
+}
+
+/* Scrollbar (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #e0e7ff;
+}
+
+/* For buttons and inputs */
+button, input, select {
+  font-family: inherit;
+}
